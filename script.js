@@ -51,25 +51,7 @@ const perguntas = [
           "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
         afirmacao: "afirmacao"
       }
-    ]<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
-</head>
-<body>
-    <div class="caixa-principal">
-        <h1>Você decide o futuro da IA</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado"></div>
-             <p class="texto-resultado"></p>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+    ]
   },
 
   {
@@ -145,6 +127,7 @@ function mostraResultado() {
   caixaAlternativas.innerHTML = "";
 
   caixaResultado.style.display = "block";
+
   textoResultado.textContent =
     "Você concluiu o quiz sobre Inteligência Artificial!";
 }
