@@ -119,4 +119,4 @@ function aleatorio(lista){
     return lista[posocao];
 }
 
-mostraPergunta();
+mostraPergunta()
